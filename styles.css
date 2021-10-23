@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#palleteContainer {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.palleteItem {
+    transition: background-color .5s;
+} 
+
+.palleteItem span {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: inline-block;
+    min-width: 80px;
+}
+
+button {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    background: #000;
+}
